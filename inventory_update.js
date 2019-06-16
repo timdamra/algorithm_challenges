@@ -16,9 +16,7 @@ function updateInventory(arr1, arr2) {
         if (!acc[item]) {
         acc[item] = amount
         }
-
-        console.log(curr[0])
-        console.log(curr[1])
+                
         if (acc[item] && acc[item] !== amount) {      
         acc[item] += amount
         }
